@@ -1,8 +1,8 @@
-## bat file
+# bat file
 
 ## 踩坑： 变量引用： 不用双引号"%log_file%", 已经有引号 %log_file%
 ## python 环境引用： python建的环境， 不用启动环境， 指定python解释器位置 python_exe 就可以
-# 赋值： 左右没有空格
+## 赋值： 左右没有空格
 
 @echo off
 pushd %~dp0
