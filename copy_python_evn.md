@@ -7,13 +7,11 @@
 这个文件会列出你本地 Python 环境中所有已安装的包及其版本。打开你的终端或命令提示符，激活你想要复制的环境（如果是虚拟环境的话）。然后运行以下命令：
 
 ```bash
-pip freeze > requirements.txt
+pip freeze > requirements.txt```
 
+这会在你的当前目录下生成一个名为 requirements.txt 的文件。
 
-
-  这会在你的当前目录下生成一个名为 requirements.txt 的文件。
-
-**步骤 2：在本地下载安装包**
+** 步骤 2：在本地下载安装包**
 
 接下来，我们使用 pip download 命令将 requirements.txt 中列出的所有包的 .whl 文件下载到本地。.whl 文件是 Python 的预编译包格式，方便安装。
 
