@@ -8,7 +8,7 @@
 
 ```bash
 pip freeze > requirements.txt
-```
+bash```
 这会在你的当前目录下生成一个名为 requirements.txt 的文件。
 
 ** 步骤 2：在本地下载安装包**
