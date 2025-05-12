@@ -7,8 +7,8 @@
 这个文件会列出你本地 Python 环境中所有已安装的包及其版本。打开你的终端或命令提示符，激活你想要复制的环境（如果是虚拟环境的话）。然后运行以下命令：
 
 ```bash
-pip freeze > requirements.txt```
-
+pip freeze > requirements.txt
+```
 这会在你的当前目录下生成一个名为 requirements.txt 的文件。
 
 ** 步骤 2：在本地下载安装包**
