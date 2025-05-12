@@ -8,10 +8,9 @@
 
 ```bash
 pip freeze > requirements.txt
-bash```
-这会在你的当前目录下生成一个名为 requirements.txt 的文件。
+# 这会在你的当前目录下生成一个名为 requirements.txt 的文件。
 
-** 步骤 2：在本地下载安装包**
+# ** 步骤 2：在本地下载安装包**
 
 接下来，我们使用 pip download 命令将 requirements.txt 中列出的所有包的 .whl 文件下载到本地。.whl 文件是 Python 的预编译包格式，方便安装。
 
